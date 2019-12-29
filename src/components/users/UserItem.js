@@ -9,7 +9,7 @@ const UserItem = ({ user }) => {
         src={user.avatar_url}
         alt=''
         className='round-img'
-        style={{ width: '100px' }}
+        style={{ width: '160px', margin: '20px', padding: '10px'}}
       />
       <h3>{user.login}</h3>
       <div>
